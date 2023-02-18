@@ -1,0 +1,46 @@
+html body{
+    background-color: rgb(221, 221, 221);
+}
+.leftDiv{
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 513px;
+    height: 568px;
+    border-radius: 16px 0px 0px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+.worldGames{
+    text-align: left;
+    
+}
+.logovid{
+    width: 209px;
+    height: 56px;
+}
+.rightDiv{
+    width: 1007px;
+    height: 568px;
+    margin-top: -566px;
+    margin-left: 565px;
+    width: 513px;
+    height: 568px;
+    border-radius: 0px 16px 16px 0px;
+}
+.outlast{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.portal{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.tastegood{
+    margin-left: 35px;
+    margin-top: 105px;
+}
+
