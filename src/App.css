@@ -1,1 +1,13 @@
+.inpatik{
+    width: 25px;
+    text-align: center;
+}
+.CartItems{
+    display: flex;
+    flex-direction: column;
+}
+.CartItem{
+    display: flex;
+    margin: 25px;
+}
 
