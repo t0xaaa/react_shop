@@ -5,14 +5,14 @@ import { useState } from 'react'
 
 
 
-function SideCart(){
-    const [openCart, SetOpenCart] = useState(true)
+function SideCart(props){
+    // const [openCart, SetOpenCart] = useState(true)
     const [ oform, setOform] = useState(false);
 
     let styleOverflow = {}
     let styleSideBlock = {}
 
-    if (openCart == true){
+    if (props.openCart == true){
         styleOverflow = {width: '100%'}
         styleSideBlock = {width: '385px'}
     }
@@ -23,7 +23,7 @@ function SideCart(){
     
 
     let content = oform ? <div><h1>Корзина</h1>
-  <img src="./img/oformit.png" className="Close" onClick={() => SetOpenCart(false)}></img>
+  <img src="./img/oformit.png" className="Close" onClick={() => props.SetOpenCart(false)}></img>
   <div className="poloska"></div>
   <div className="MainProduct">
     <h2 className='zakaz'>Ваш заказ оформлен</h2>
@@ -95,7 +95,7 @@ function SideCart(){
     </>
   
 return<div>
-    <div className='Overflow' style={styleOverflow} onClick={() => SetOpenCart(false)}></div>
+    <div className='Overflow' style={styleOverflow} onClick={() => props.SetOpenCart(false)}></div>
     <div className='SideBlock' style={styleSideBlock}>
     <div className='scroll'>
    

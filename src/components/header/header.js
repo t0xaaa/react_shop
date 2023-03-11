@@ -2,7 +2,7 @@ import Stack from 'react-bootstrap/Stack';
 import SideCart from '../SideCart/SideCart';
 import './header.css'
 
-function Header() {
+function Header(props) {
 
     return<div>
      <div className='mainHeader'>
@@ -15,7 +15,7 @@ function Header() {
       <div className="">Поиск</div>
       <div className="">Самое выгодное</div>
       <div className=" ms-auto"><img src='./img/Group.png'></img> Вход</div>
-      <div className=" "><img className='logocart' src='./img/Vector.png' onClick={SideCart}></img></div>
+      <div className=" "><img className='logocart' src='./img/Vector.png' onClick={() => props.SetOpenCart()}></img></div>
       <div className=""></div>
     </Stack>
     </div>

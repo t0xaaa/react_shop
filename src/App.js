@@ -9,11 +9,12 @@ import './App.css'
 
 function App() {
 
-
+  const [openCart, SetOpenCart] = useState(true)
+  
 
     return <div>
-      <SideCart />
-      <Header />
+      <SideCart openCart={openCart} SetOpenCart={() => SetOpenCart(false)}/>
+      <Header SetOpenCart={() => SetOpenCart(true)}/>
       <Main />
       
     </div>
