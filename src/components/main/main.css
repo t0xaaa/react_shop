@@ -18,6 +18,10 @@ html body{
     text-align: left;
     
 }
+.worldGames2{
+    text-align: center;
+    
+}
 .logovid{
     width: 209px;
     height: 56px;
@@ -43,4 +47,56 @@ html body{
     margin-left: 35px;
     margin-top: 105px;
 }
+.rightDiv2{
+    width: 1007px;
+    height: 568px;
+    margin-top: -566px;
+    margin-left: 850px;
+    width: 713px;
+    height: 437px;
+    border-radius: 0px 16px 16px 0px;
+    background-color: white;
+}
+.leftDiv2{
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 513px;
+    height: 568px;
+    border-radius: 16px 0px 0px 16px;
+    
 
+
+}
+.maincardmaf{
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.cards{
+    margin-left: 530px; 
+    margin-top: -740px;
+    
+}
+.cards2{
+    margin-left: 860px; 
+    margin-top: -360px;
+}
+.cards3{
+    margin-left: 800px; 
+    margin-top: 20px;
+}
+.cards4{
+    margin-left: 1200px; 
+    margin-top: -371px;
+}
+.cards7{
+    margin-left: 1100px; 
+    margin-top: -400px;
+}
+.cards6{
+    margin-left: 600px; 
+    margin-top: -370px;
+}
+.card5{
+    margin-left: 100px; 
+    margin-top: 30px;
+}

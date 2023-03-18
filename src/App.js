@@ -5,6 +5,7 @@ import Main from './components/main/main';
 import SideCart from './components/SideCart/SideCart';
 import './App.css'
 
+
 // import Slider from './components/main/slider';
 
 function App() {
