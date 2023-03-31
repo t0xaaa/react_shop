@@ -1,5 +1,6 @@
 import Stack from 'react-bootstrap/Stack';
 import SideCart from '../SideCart/SideCart';
+import {Link} from "react-router-dom";
 import './header.css'
 
 function Header(props) {
@@ -14,7 +15,7 @@ function Header(props) {
       <div className="">Игры</div>
       <div className="">Поиск</div>
       <div className="">Самое выгодное</div>
-      <div className=" ms-auto"><img src='./img/Group.png'></img> Вход</div>
+      <div className=" ms-auto"><img className='buttomprofil' src='./img/Group.png'></img> Вход</div>
       <div className=" "><img className='logocart' src='./img/Vector.png' onClick={() => props.SetOpenCart()}></img></div>
       <div className=""></div>
     </Stack>

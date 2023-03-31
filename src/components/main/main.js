@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 function Main() {
-
+  // props
     return<div>
      <div className='mainMain'>
         <div className='leftDiv'>
@@ -16,11 +16,11 @@ function Main() {
             <img src='./img/gta.png'></img>
         </div>
         <div className='products'>
-            <img className='outlast' src='./img/outlast.png'></img>
-            <img className='portal' src='./img/portal.png'></img>
+            <img className='outlast'  src='./img/outlast.png'></img>
+            <img className='portal'  src='./img/portal.png'></img>
             <img className='outlast' src='./img/skyrim.png'></img>
         </div>
-
+        {/* addProdToCart={(NEWPROD) => props.addProdToCart(NEWPROD)} */}
     <p className='tastegood'><h1>Отличный вкус</h1></p>
     <div className='leftDiv2'>
     <img src='./img/steam.png'></img>
@@ -111,10 +111,9 @@ function Main() {
             <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src="./img/bully.png" />
       <Card.Body>
-        <Card.Title>BULLY</Card.Title>
+        <Card.Title></Card.Title>
         <Card.Text>
-        Вторая часть 
-легендарной франшизы
+        BULLY
         </Card.Text>
         <b>29 рублей</b> <Button variant="primary">Посмотреть</Button>
       </Card.Body>
@@ -135,7 +134,15 @@ function Main() {
     </div>
         </div>
      </div>
-        
+     <p className='tastegood'><h1>Новинки</h1></p>
+     <div className='leftDiv2'>
+    <img src='./img/uncharted4.png'></img>
+        </div>
+        <div className='rightDiv2'>
+            <h5 className='worldGames2'>Uncharted 4 для ПК</h5>
+
+            
+        </div>
 
     </div>
 
