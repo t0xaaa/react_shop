@@ -27,3 +27,23 @@ option{
     width: 30px;
     height: 30px;
 }
+a{
+    width: 0px;
+    text-align: center;
+    position: none;
+    display: inline;
+    padding: 0px 0px;
+    background-color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .0s;
+    margin-top: 100px;
+    margin-left: 10px;
+    letter-spacing: 4px;
+    text-decoration: none !important;
+}
+a :hover{
+    background-color: white;
+}
